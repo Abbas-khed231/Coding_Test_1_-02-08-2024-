@@ -17,7 +17,6 @@ def read_csv(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Replace 'your_file.csv' with the path to your CSV file
 file_path = 'aerofit_treadmill.csv'
 read_csv(file_path)
 
